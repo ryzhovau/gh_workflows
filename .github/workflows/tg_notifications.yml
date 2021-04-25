@@ -9,8 +9,8 @@ jobs:
   tg_notifications:
     runs-on: ubuntu-latest
     steps:
-      - name: Telegram Message Notify about commit
-        uses: appleboy/telegram-action@0.1.1
+      - name: Telegram Message Notify
+        uses: appleboy/telegram-action@v0.1.1
         with:
           to: ${{ secrets.TG_CHAT_ID }}
           token: ${{ secrets.TG_BOT_TOKEN }}
