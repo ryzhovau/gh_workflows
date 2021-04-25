@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  notify_tg:
+  tg_notifications:
     runs-on: ubuntu-latest
     steps:
       - name: Telegram Message Notify about commit
