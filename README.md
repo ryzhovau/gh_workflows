@@ -1,2 +1,2 @@
 # gh_workflows
-Just a workflow(s) test
+Just a workflow test
